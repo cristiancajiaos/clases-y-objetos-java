@@ -1,20 +1,11 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package clases.y.objetos;
 
-/**
- *
- * @author crist
- */
 public class ClasesYObjetos {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Persona adulto = new Persona("Juan", 1.79, 25);
+        adulto.imprimirDatos();
+
     }
-    
+
 }
